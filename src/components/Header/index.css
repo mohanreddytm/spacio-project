@@ -1,0 +1,83 @@
+.header-initial-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-color: transparent;
+    padding: 10px 0px;
+    padding-top: 20px;
+    box-shadow: 0px 0px 5px 0px grey;
+}
+
+
+.header-main-cont{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+
+}
+
+.header-logo-cont{
+    display: flex;
+    align-items: center;
+}
+
+.header-logo{
+    width: 60px;
+}
+
+.header-logo-name-cont{
+    display: flex;
+    flex-direction: row;
+    margin-left: 8px;
+
+    background-color: transparent;
+}
+
+.header-logo-name{
+    color:#050806;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header-logo-name-brand{
+    align-self: center;
+    margin: 0px;
+    padding: 0px;
+    font-weight: 700;
+    font-size: 5px;
+
+}
+
+.header-right-cont{
+    width:50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-right-cont-head{
+    color:#101211;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.header-right-cont-button{
+    border: none;
+    border-radius: 14px;
+    background-color: #0744a6;
+    padding: 8px 16px;
+    color: white;
+    font-size: 10px;
+    font-weight: 600;
+    box-shadow: 0px 1px 10px 0px grey;
+}
+
+.header-right-cont-menu{
+    color:#050806;
+    font-size: 24px;
+}
