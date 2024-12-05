@@ -1,24 +1,300 @@
 
+
 .app-initial-cont{
   display: flex;
   flex-direction: column;
 
 }
 
+.books-app-css-style{
+  min-height: 85vh;
+}
+
+.book-app-main-cont{
+  padding: 20px;
+}
+
 .book-appointment-cont{
   background-size: cover;
-  height: 70vh;
+
+  max-width: 100vw;
+height: 85vh;
+opacity: 1;
+}
+
+.book-appointment-main-heading{
+  color: #050806;
+  font-size: 32px;
+  font-weight: 500;
+width: 40vw;
+line-height: 1.3;
+
+}
+
+.book-app-span-one{
+  font-weight: 600;
+  font-style: italic;
+}
+
+.book-app-span-two{
+  text-decoration: underline;
+}
+
+.book-app-button{
+  background-color: #0744a6;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 24px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.book-app-button-arrow{
+  color: white;
+
+  height:30px;
+  font-size: 30px;
+  font-weight: 1000;
+  margin: 0px;
+  padding: 0px;
+  margin-left: 8px;
+}
+
+.forward-arrow-book-app{
+  height: 50px;
+  font-size: 50px;
+  font-weight: bold;
+  order: 1;
+
+}
+
+.book-appointment-top-cont{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  margin:6vw;
+}
+
+.book-app-bottom-cont{
+  display: flex;
+  align-items: center;
+  align-self: center;
+  margin-top: 100px;
+  margin-bottom: 0px;
+}
+
+.copy-right-one{
+  font-size: 10px;
+}
+
+.copy-right-content{
+  font-size: 10px;
+
+  font-weight: 500;
+}
+
+.spacio-tech-initial-cont{
+  min-height: 100vh;
+  max-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.spacio-tech-main-cont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vw;
+}
+
+.spcaio-tech-left-cont{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 60vh;
+  width: 40vw;
+  background-color: transparent;
+}
+
+.spacio-tech-main-heading{
+  border-left: solid 3px red;
+  padding-left: 16px;
+  font-size:40px;
+  color:#070708;
+  margin-top: 0px;
+  font-weight: 500;
+}
+
+.spacio-tech-button-cont{
+  display: flex;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+  align-self: flex-start;
+  border-radius: 10px;
+  align-items: center;
+  padding: 10px;
+}
+
+.spacio-tech-button-content{
+  font-size: 20px;
+  font-weight: 600;
+  color: #070708;
+  margin: 0px;
+}
+
+
+.spacio-tech-arrow{
+  height: 50px;
+  font-size: 50px;
+  margin-left: 10px;
+}
+
+.content-of-spacio-tech{
+  font-size: 18px;
+  font-weight: 500;
+  color: #0e0f0e;
+
+}
+
+.more-specify-spacio-tech{
+  font-weight: 600;
+  margin-top: 50px;
+}
+
+.content-of-spacio-tech-cont{
+  width: 38vw;
+}
+
+.spacio-tech-copy-one{
+  margin-top: auto;
+  margin-bottom: 16px;
+}
+
+.facade-initial-cont{
+  background-image: url('https://media-hosting.imagekit.io//697e4723b1464aba/Spacio%20TechTonics%20Consultancy%20V21.png?Expires=1733550997&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Zk4xg8tLfzGsYA8TSMo2v6hlWP7BER7UeD302evZVmM1ExLfDv3thU1AEcoHXLcZJyZ7AD9Cjy-xAKrN2x4jStT7KpGvHxqdpHtkdaB~Wlc91P4zYcLBaPCTWpQMIhyqem6Fgm01SmhhrUsgjmpNkMP-iDk5oLHnulBUO~-8kygz6eQd1He1pu6O2HzEhu7buNTvgFW5euDuNcwy9-1XMFQkBGx39j1-RiKtw5MdZs2EQYIINB~qLTztaJcc7fRHc3mjPwfgGultDQh5jIhiRVHX8n7bYIMZ2HugabRe6M8-YJghkSXu~Qs4fgUNYs5jhwRefEb9m5FgS4LZ0Ud5FA__');
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  max-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.facade-main-cont{
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
 
 
 }
 
-.book-appointment-cont::before {
-  content: '';
-  position: absolute;
-  background-repeat: no-repeat;
-  opacity: 0.5; 
-  z-index: -1;
+.facade-arrows-container{
+  display: flex;
+  justify-content: space-between;
 }
+
+.facade-arrow{
+  color: white;
+  height: 50px;
+  font-size: 50px;
+}
+
+.facade-heading{
+  color: white;
+  font-size: 50px;
+  font-weight: 600;
+  font-style: italic;
+  text-align: center;
+  align-self: center;
+  margin-top: 9vw;
+  margin-bottom: 6vw;
+}
+
+.facade-copy-right{
+  color:white
+}
+
+@media screen and (max-width: 500px) {
+  .forward-arrow-book-app{
+    order: 0;
+  }
+
+  .book-appointment-top-cont{
+    justify-content: flex-start;
+    margin: 0px;
+  }
+
+  .book-appointment-main-heading{
+    width: 87vw;
+
+  }
+
+  .books-app-css-style{
+    min-height: 60vh;
+  }
+
+  .forward-arrow-book-app{
+    height: 30px;
+  }
+
+  .book-app-bottom-cont{
+    margin-top: 60px;
+  }
+
+  
+
+
+}
+
+
+@media screen and (max-width:1060px) {
+  .spacio-tech-main-cont{
+    flex-direction: column;
+    margin-top: 8vw;
+  }
+
+  .spcaio-tech-left-cont{
+    height: 40vw;
+    width: 50vw;
+  }
+
+  .content-of-spacio-tech-cont{
+    width: 60vw;
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width:700px) {
+  .spcaio-tech-left-cont{
+    height: 50vw;
+    width: 70vw;
+  }
+  .content-of-spacio-tech-cont{
+    width: 80vw;
+    margin-top: 40px;
+  }
+}
+
+
+@media screen and (max-width:500px) {
+  .spcaio-tech-left-cont{
+    height: 50vw;
+    width: 80vw;
+  }
+  .content-of-spacio-tech-cont{
+    width: 90vw;
+    margin-top: 40px;
+  }
+}
+
+
+
 
 *{
   box-sizing: border-box;

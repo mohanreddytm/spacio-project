@@ -2,11 +2,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
+
     background-color: transparent;
     padding: 10px 0px;
-    padding-top: 20px;
-    box-shadow: 0px 0px 5px 0px grey;
+    padding-top: 2vw;
+    box-shadow: 0px 1px 10px 0px grey;
+    max-width: 100vw;
 }
 
 
@@ -25,7 +26,7 @@
 }
 
 .header-logo{
-    width: 60px;
+    width: 6vw;
 }
 
 .header-logo-name-cont{
@@ -38,7 +39,7 @@
 
 .header-logo-name{
     color:#050806;
-    font-size: 16px;
+    font-size: 1.6vw;
     font-weight: 600;
     margin: 0px;
     padding: 0px;
@@ -49,12 +50,12 @@
     margin: 0px;
     padding: 0px;
     font-weight: 700;
-    font-size: 5px;
+    font-size: 0.5vw;
 
 }
 
 .header-right-cont{
-    width:50%;
+    width:55%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -62,7 +63,7 @@
 
 .header-right-cont-head{
     color:#101211;
-    font-size: 16px;
+    font-size: 1.6vw;
     font-weight: 400;
 }
 
@@ -70,14 +71,14 @@
     border: none;
     border-radius: 14px;
     background-color: #0744a6;
-    padding: 8px 16px;
+    padding: 0.8vw 1.6vw;
     color: white;
-    font-size: 10px;
+    font-size: 1vw;
     font-weight: 600;
     box-shadow: 0px 1px 10px 0px grey;
 }
 
 .header-right-cont-menu{
     color:#050806;
-    font-size: 24px;
+    font-size: 2.4vw;
 }
