@@ -96,7 +96,7 @@ const App = () => {
           <FaRegCopyright className="copy-right-one" />
           <p className="copy-right-content">SPACIO TECHTONICS | all rights reserved</p>
         </div>
-        </div>
+      </div>
     </div>
     <div className="spacio-tech-initial-cont">
       <div className="spacio-tech-main-cont">
