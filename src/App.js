@@ -4,6 +4,7 @@ import favicon from './one/favicon.ico'
 
 import { IoMdMenu } from "react-icons/io";
 
+import screenshot from './one/Screenshot 2024-12-06 090252.png'
 
 import image1 from './one/image1.png'
 
@@ -38,6 +39,10 @@ const App = () => {
 
 
   };
+
+  const redStyleOne = {
+    backgroundImage: `url(${screenshot})`,
+  }
 
   const overlayStyle = {
     position: 'absolute',
@@ -119,7 +124,7 @@ const App = () => {
         </div>
 
     </div>
-    <div className="facade-initial-cont">
+    <div style={redStyleOne} className="facade-initial-cont">
       <div className="facade-main-cont">
         <div className="facade-arrows-container">
           <FaChevronLeft className="facade-arrow" />
